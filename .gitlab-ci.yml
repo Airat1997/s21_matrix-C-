@@ -1,0 +1,9 @@
+stages:         
+  - build
+
+build:
+  stage: build
+  script:
+    - echo "Hello, word!"
+    - cd src
+    - gcc 1.cpp
